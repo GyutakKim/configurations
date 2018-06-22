@@ -117,3 +117,8 @@ export SPARK_DIST_CLASSPATH=$SPARK_DIST_CLASSPATH:~/hadoop-3.1.0/share/hadoop/to
 
 # Syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# For virtualenv
+export VIRTUALENVWRAPPER_PYTHON="$(which python3)"
+export WORKON_HOME=~/.virtualenvs
+source /anaconda3/bin/virtualenvwrapper.sh
